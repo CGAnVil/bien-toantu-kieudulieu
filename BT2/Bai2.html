@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen doi tien te</title>
+    <script src="Bai2.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <td>Amount</td>
+        <td>From Currency</td>
+        <td>To Cunrrency</td>
+    </tr>
+    <tr>
+        <td><input id="inputCurrency" type="text" placeholder="Nhập số tiền"></td>
+        <td>
+            <select id="fromCurrency">
+                <option value="vnd">VietNam</option>
+                <option value="usd">Usd</option>
+            </select>
+        </td>
+        <td>
+            <select id="toCurrency">
+                <option value="usd">Usd</option>
+                <option value="vnd">VietNam</option>
+            </select>
+        </td>
+        <td><button onclick="convert()">Convert</button></td>
+
+    </tr>
+</table>
+
+</body>
+</html>
